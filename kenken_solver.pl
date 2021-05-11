@@ -1,6 +1,5 @@
-% CECS-342: Homework 5
-% By: Andrew Baltazar
-% Due: 5/7/2021
+% 6x6 KenKen Puzzle Solver
+% By: Andrew Baltazar (Wrexie)
 
 :- use_module(library(clpfd)).
 
