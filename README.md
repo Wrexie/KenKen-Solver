@@ -1,6 +1,19 @@
 # KenKen-Solver
 6x6 KenKen puzzle solver in prolog.
 
+A query consists of a solution `S` which will represent the rows and columns of your blank puzzle and a list of cages that will define the individual cages of the puzzle with their respective arithmetic operations.  
+
+Cages are defined by using the `cage(identifier, result, cell coordinates)` functor.  
+
+The cage identifier can be any one of the following arithmetic operations:  
+`div` - division  
+`mult` - multiplication  
+`add` - addition  
+`sub` - subtraction  
+`id` - single integer  
+
+The result is simply the result of performing the arithmetic operation on the numbers inside the specified cage. The cell coordinates consistes of a list of [x, y] coordinates specifying the location of each cell in the matrix.
+
 Sample query:
 ```
 S = [[_,_,_,_,_,_],
