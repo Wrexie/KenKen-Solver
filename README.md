@@ -25,3 +25,11 @@ S = [[_,_,_,_,_,_],
                cage(add, 13, [[5, 2], [5, 3], [5, 4], [5, 5]])
                ]).
 ```
+
+This will solve the 6x6 KenKen puzzle shown in the image below:
+
+![sample_6x6_kenken_puzzle](https://user-images.githubusercontent.com/61041168/117743917-95324600-b1bc-11eb-939c-a90e91736d86.PNG)
+
+Output of the sample query:
+
+![kenken_solver_sample_output](https://user-images.githubusercontent.com/61041168/117743984-b2671480-b1bc-11eb-84bc-880a91547a27.PNG)
